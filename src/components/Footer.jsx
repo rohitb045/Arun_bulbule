@@ -4,7 +4,7 @@ export default function Footer() {
       <div className="flex flex-col md:flex-row justify-between items-center px-8 max-w-7xl mx-auto gap-6">
         <div className="flex flex-col items-center md:items-start gap-2">
           <span className="font-manrope font-bold text-slate-900 dark:text-slate-50 text-xl tracking-tighter">
-            Arun Bulbule
+            Arun B
           </span>
           <p className="font-inter text-sm tracking-wide text-slate-500 dark:text-slate-400">
             © 2024 Designer Portfolio. Built on The Curated Canvas.

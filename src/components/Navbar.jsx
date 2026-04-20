@@ -6,7 +6,7 @@ export default function Navbar() {
           className="font-manrope font-black tracking-tighter text-2xl text-slate-900 dark:text-slate-50 uppercase"
           href="#"
         >
-          Arun Bulbule
+          DESIGNER.PORTFOLIO
         </a>
         <div className="hidden md:flex items-center gap-10">
           <a
