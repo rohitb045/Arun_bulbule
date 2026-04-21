@@ -1,18 +1,23 @@
 export default function Skill() {
   return (
-    <section className="py-32 bg-surface" id="skills">
-      <div className="max-w-7xl mx-auto px-8">
-        <div className="text-center mb-24">
-          <h2 className="text-5xl font-black font-headline tracking-tighter">
+    <section className="py-16 sm:py-20 md:py-28 lg:py-32 bg-surface" id="skills">
+      <div className="max-w-7xl mx-auto px-5 sm:px-6 md:px-8">
+        
+        {/* Heading */}
+        <div className="text-center mb-12 sm:mb-16 md:mb-20 lg:mb-24">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-black tracking-tighter">
             Core Proficiency
           </h2>
-          <p className="mt-6 text-on-surface-variant max-w-2xl mx-auto text-lg leading-relaxed">
+
+          <p className="mt-4 sm:mt-5 md:mt-6 text-sm sm:text-base md:text-lg text-on-surface-variant max-w-2xl mx-auto leading-relaxed">
             Mastering the tools of the trade to deliver exceptional visual results
             across all mediums.
           </p>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8">
+        {/* Grid */}
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4 sm:gap-6 md:gap-8">
+          
           {[
             { icon: "photo_filter", name: "Photoshop" },
             { icon: "draw", name: "Illustrator" },
@@ -23,14 +28,23 @@ export default function Skill() {
           ].map((skill, index) => (
             <div
               key={index}
-              className="flex flex-col items-center gap-6 p-10 rounded-3xl bg-surface-container-lowest shadow-[0px_20px_40px_rgba(25,28,29,0.06)] hover:scale-105 transition-transform"
+              className="flex flex-col items-center gap-3 sm:gap-4 md:gap-6 
+              p-4 sm:p-6 md:p-8 lg:p-10 
+              rounded-2xl md:rounded-3xl 
+              bg-surface-container-lowest 
+              shadow-[0px_10px_20px_rgba(25,28,29,0.05)] 
+              hover:scale-105 transition-transform duration-300"
             >
-              <div className="w-16 h-16 flex items-center justify-center bg-primary/10 rounded-2xl">
-                <span className="material-symbols-outlined text-4xl text-primary">
+              
+              {/* Icon */}
+              <div className="w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 flex items-center justify-center bg-primary/10 rounded-xl md:rounded-2xl">
+                <span className="material-symbols-outlined text-2xl sm:text-3xl md:text-4xl text-primary">
                   {skill.icon}
                 </span>
               </div>
-              <span className="font-bold text-on-surface tracking-tight">
+
+              {/* Text */}
+              <span className="text-sm sm:text-base font-semibold text-on-surface tracking-tight text-center">
                 {skill.name}
               </span>
             </div>

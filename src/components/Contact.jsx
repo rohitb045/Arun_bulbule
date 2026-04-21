@@ -1,120 +1,119 @@
 export default function Contact() {
   return (
-    <section className="py-32 bg-surface" id="contact">
-      <div className="max-w-7xl mx-auto px-8">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-24">
-          <div>
-            <span className="font-label text-xs uppercase tracking-widest text-primary font-bold">
+    <section
+      className="py-16 sm:py-20 md:py-28 lg:py-32 bg-surface"
+      id="contact"
+    >
+      <div className="max-w-7xl mx-auto px-5 sm:px-6 md:px-8">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 md:gap-16 lg:gap-24">
+          {/* Left Info */}
+          <div className="text-center lg:text-left">
+            <span className="text-xs uppercase tracking-widest text-primary font-bold">
               Contact
             </span>
-            <h2 className="text-6xl font-black font-headline tracking-tighter mt-4 mb-12">
+
+            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black tracking-tighter mt-4 mb-8 md:mb-12 leading-tight">
               Let's build <br />
               your vision.
             </h2>
-            <div className="space-y-8">
-              <div className="flex items-center gap-6">
-                <div className="w-14 h-14 rounded-full bg-surface-container-high flex items-center justify-center">
-                  <span
-                    className="material-symbols-outlined text-primary"
-                    data-icon="mail"
-                  >
-                    mail
-                  </span>
+
+            <div className="space-y-6 sm:space-y-8">
+              {[
+                {
+                  icon: "mail",
+                  label: "Email Me",
+                  value: "hello@designerportfolio.com",
+                },
+                {
+                  icon: "call",
+                  label: "Call Me",
+                  value: "+1 (555) 012-3456",
+                },
+                {
+                  icon: "location_on",
+                  label: "Office",
+                  value: "New York City, NY",
+                },
+              ].map((item, i) => (
+                <div
+                  key={i}
+                  className="flex flex-col items-center text-center gap-2 
+                 lg:flex-row lg:items-center lg:text-left lg:gap-6 lg:justify-start"
+                >
+                  {/* Icon */}
+                  <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-full bg-surface-container-high flex items-center justify-center">
+                    <span className="material-symbols-outlined text-primary text-xl sm:text-2xl">
+                      {item.icon}
+                    </span>
+                  </div>
+
+                  {/* Text */}
+                  <div>
+                    <p className="text-xs uppercase tracking-widest text-on-surface-variant">
+                      {item.label}
+                    </p>
+
+                    <p className="text-sm sm:text-base md:text-lg font-semibold text-on-surface break-words">
+                      {item.value}
+                    </p>
+                  </div>
                 </div>
-                <div>
-                  <p className="font-label text-xs uppercase tracking-widest text-on-surface-variant">
-                    Email Me
-                  </p>
-                  <p className="text-xl font-bold text-on-surface">
-                    hello@designerportfolio.com
-                  </p>
-                </div>
-              </div>
-              <div className="flex items-center gap-6">
-                <div className="w-14 h-14 rounded-full bg-surface-container-high flex items-center justify-center">
-                  <span
-                    className="material-symbols-outlined text-primary"
-                    data-icon="call"
-                  >
-                    call
-                  </span>
-                </div>
-                <div>
-                  <p className="font-label text-xs uppercase tracking-widest text-on-surface-variant">
-                    Call Me
-                  </p>
-                  <p className="text-xl font-bold text-on-surface">
-                    +1 (555) 012-3456
-                  </p>
-                </div>
-              </div>
-              <div className="flex items-center gap-6">
-                <div className="w-14 h-14 rounded-full bg-surface-container-high flex items-center justify-center">
-                  <span
-                    className="material-symbols-outlined text-primary"
-                    data-icon="location_on"
-                  >
-                    location_on
-                  </span>
-                </div>
-                <div>
-                  <p className="font-label text-xs uppercase tracking-widest text-on-surface-variant">
-                    Office
-                  </p>
-                  <p className="text-xl font-bold text-on-surface">
-                    New York City, NY
-                  </p>
-                </div>
-              </div>
+              ))}
             </div>
           </div>
-          <div className="p-12 rounded-[40px] bg-surface-container-lowest shadow-[0px_40px_80px_rgba(25,28,29,0.08)]">
-            <form className="space-y-6">
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+          {/* Form */}
+          <div className="p-6 sm:p-8 md:p-10 lg:p-12 rounded-3xl md:rounded-[40px] bg-surface-container-lowest shadow-[0px_30px_60px_rgba(25,28,29,0.08)]">
+            <form className="space-y-5 sm:space-y-6">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
                 <div>
-                  <label className="block font-label text-xs uppercase tracking-widest text-on-surface-variant mb-2">
+                  <label className="block text-xs uppercase tracking-widest text-on-surface-variant mb-2">
                     Full Name
                   </label>
                   <input
-                    className="w-full bg-surface-container-low border-0 rounded-xl px-6 py-4 focus:ring-2 focus:ring-primary focus:bg-white transition-all outline-none"
-                    placeholder="Jane Doe"
                     type="text"
+                    placeholder="Jane Doe"
+                    className="w-full bg-surface-container-low rounded-xl px-4 sm:px-5 md:px-6 py-3 sm:py-4 focus:ring-2 focus:ring-primary focus:bg-white transition outline-none"
                   />
                 </div>
+
                 <div>
-                  <label className="block font-label text-xs uppercase tracking-widest text-on-surface-variant mb-2">
+                  <label className="block text-xs uppercase tracking-widest text-on-surface-variant mb-2">
                     Email Address
                   </label>
                   <input
-                    className="w-full bg-surface-container-low border-0 rounded-xl px-6 py-4 focus:ring-2 focus:ring-primary focus:bg-white transition-all outline-none"
-                    placeholder="jane@example.com"
                     type="email"
+                    placeholder="jane@example.com"
+                    className="w-full bg-surface-container-low rounded-xl px-4 sm:px-5 md:px-6 py-3 sm:py-4 focus:ring-2 focus:ring-primary focus:bg-white transition outline-none"
                   />
                 </div>
               </div>
+
               <div>
-                <label className="block font-label text-xs uppercase tracking-widest text-on-surface-variant mb-2">
+                <label className="block text-xs uppercase tracking-widest text-on-surface-variant mb-2">
                   Phone Number
                 </label>
                 <input
-                  className="w-full bg-surface-container-low border-0 rounded-xl px-6 py-4 focus:ring-2 focus:ring-primary focus:bg-white transition-all outline-none"
-                  placeholder="+1 (555) 000-0000"
                   type="tel"
+                  placeholder="+1 (555) 000-0000"
+                  className="w-full bg-surface-container-low rounded-xl px-4 sm:px-5 md:px-6 py-3 sm:py-4 focus:ring-2 focus:ring-primary focus:bg-white transition outline-none"
                 />
               </div>
+
               <div>
-                <label className="block font-label text-xs uppercase tracking-widest text-on-surface-variant mb-2">
+                <label className="block text-xs uppercase tracking-widest text-on-surface-variant mb-2">
                   Your Message
                 </label>
                 <textarea
-                  className="w-full bg-surface-container-low border-0 rounded-xl px-6 py-4 focus:ring-2 focus:ring-primary focus:bg-white transition-all outline-none resize-none"
+                  rows="4"
                   placeholder="Tell me about your project..."
-                  rows="5"
+                  className="w-full bg-surface-container-low rounded-xl px-4 sm:px-5 md:px-6 py-3 sm:py-4 focus:ring-2 focus:ring-primary focus:bg-white transition outline-none resize-none"
                 ></textarea>
               </div>
+
               <button
-                className="w-full py-5 bg-gradient-to-br from-primary to-primary-container text-white font-bold text-lg rounded-xl shadow-xl hover:shadow-2xl hover:scale-[1.02] active:scale-[0.98] transition-all"
                 type="submit"
+                className="w-full py-3 sm:py-4 md:py-5 bg-gradient-to-br from-primary to-primary-container text-white font-bold text-base sm:text-lg rounded-xl shadow-xl hover:shadow-2xl hover:scale-[1.02] active:scale-[0.98] transition-all"
               >
                 Send Message
               </button>
