@@ -8,7 +8,7 @@ import "./index.css";
 import Skill from "./components/Skill";
 import Experience from "./components/Ex";
 import Education from "./components/Education";
-import Cta from "./components/CTA";
+import Cta from "./components/Cta";
 
 export default function App() {
   return (
