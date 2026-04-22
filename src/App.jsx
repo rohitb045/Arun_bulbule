@@ -7,17 +7,24 @@ import Footer from "./components/Footer";
 import "./index.css";
 import Skill from "./components/Skill";
 import Experience from "./components/Ex";
+import Education from "./components/Education";
+import Cta from "./components/CTA";
 
 export default function App() {
   return (
     <div className="bg-background text-on-surface">
       <Navbar />
-      <Hero />
-      <About />
-      <Work />
-     <Skill />
-     <Experience />
-      <Contact />
+      <main>
+        <Hero />
+        <About />
+        <Work />
+        <Skill />
+        <Experience />
+        <Education />
+        <Cta />
+        <Contact />
+      </main>
+
       <Footer />
     </div>
   );

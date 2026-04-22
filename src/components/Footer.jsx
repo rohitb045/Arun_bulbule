@@ -1,36 +1,32 @@
 export default function Footer() {
   return (
-    <footer className="w-full py-10 sm:py-12 bg-slate-100 dark:bg-slate-950">
-      <div className="flex flex-col md:flex-row justify-between items-center md:items-start px-5 sm:px-6 md:px-8 max-w-7xl mx-auto gap-6">
-        
-        {/* Left */}
-        <div className="flex flex-col items-center md:items-start gap-2 text-center md:text-left">
-          <span className="font-bold text-slate-900 dark:text-slate-50 text-lg sm:text-xl tracking-tighter">
-            Arun B
-          </span>
-
-          <p className="text-xs sm:text-sm text-slate-500 dark:text-slate-400">
-            © {new Date().getFullYear()} Designer Portfolio. Built with care.
-          </p>
+    <footer className="bg-[#1a1c20] w-full py-16 border-t border-outline-variant/10">
+      <div className="flex flex-col md:flex-row justify-between items-center px-8 md:px-20 max-w-[1920px] mx-auto gap-8">
+        <div className="font-epilogue font-black text-[#c3f5ff] text-2xl">
+          Arun Bulbule
         </div>
-
-        {/* Links */}
-        <div className="flex flex-wrap justify-center md:justify-end gap-4 sm:gap-6 md:gap-8">
-          {[
-            "LinkedIn",
-            "Dribbble",
-            "Instagram",
-            "Email",
-          ].map((item) => (
-            <a
-              key={item}
-              href="#"
-              className="text-xs sm:text-sm text-slate-500 dark:text-slate-400 
-              hover:text-red-700 transition-all underline-offset-4 hover:underline"
-            >
-              {item}
-            </a>
-          ))}
+        <p className="font-manrope text-xs tracking-[0.2em] uppercase text-[#e2e2e8]/50 text-center md:text-left">
+          © 2024 Arun Bulbule. Designed for the Digital Lithograph.
+        </p>
+        <div className="flex gap-8">
+          <a
+            className="text-[#e2e2e8]/50 hover:text-[#c3f5ff] transition-colors duration-300 font-manrope text-xs tracking-[0.2em] uppercase"
+            href="#"
+          >
+            LinkedIn
+          </a>
+          <a
+            className="text-[#e2e2e8]/50 hover:text-[#c3f5ff] transition-colors duration-300 font-manrope text-xs tracking-[0.2em] uppercase"
+            href="#"
+          >
+            Behance
+          </a>
+          <a
+            className="text-[#e2e2e8]/50 hover:text-[#c3f5ff] transition-colors duration-300 font-manrope text-xs tracking-[0.2em] uppercase"
+            href="#"
+          >
+            Dribbble
+          </a>
         </div>
       </div>
     </footer>
