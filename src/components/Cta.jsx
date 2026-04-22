@@ -19,12 +19,13 @@ export default function Cta() {
         </p>
 
         <a
-          href="/assets/resume/Arun_Bulbule_Resume.pdf"
-          download
+          href="/Arun_Bulbule_Resume.pdf"
+          download="Arun_Bulbule_Resume.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
           className="inline-flex items-center gap-3 px-10 py-5 bg-primary text-on-primary font-bold text-lg rounded-md hover:scale-105 transition-transform duration-300"
         >
           Download Resume
-          {/* <span className="material-symbols-outlined">download</span> */}
         </a>
       </div>
     </section>

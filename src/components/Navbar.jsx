@@ -31,10 +31,11 @@ export default function Navbar() {
             Get in Touch
           </a>
           <a
-            href="/assets/resume/Arun_Bulbule_Resume.pdf"
-            download
+            href="/Arun_Bulbule_Resume.pdf"
+            download="Arun_Bulbule_Resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
             className="px-6 py-2 bg-primary text-on-primary font-bold rounded hover:scale-105 transition-all duration-300"
-            
           >
             Resume
           </a>
