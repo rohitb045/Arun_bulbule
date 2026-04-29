@@ -19,7 +19,7 @@ export default function Contact() {
                   <p className="text-on-surface-variant font-bold text-xs uppercase tracking-widest mb-1">
                     Phone
                   </p>
-                  <p className="text-2xl font-epilogue">+91 98765 43210</p>
+                  <p className="text-2xl font-epilogue">+91 9766470590</p>
                 </div>
               </div>
               <div className="flex items-start gap-6">
@@ -30,7 +30,7 @@ export default function Contact() {
                   <p className="text-on-surface-variant font-bold text-xs uppercase tracking-widest mb-1">
                     Email
                   </p>
-                  <p className="text-2xl font-epilogue">arun.bulbule@example.com</p>
+                  <p className="text-xl font-epilogue">arunbulbule09@gmail.com</p>
                 </div>
               </div>
               <div className="flex items-start gap-6">

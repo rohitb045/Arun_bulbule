@@ -60,7 +60,8 @@ export default function Work() {
                 alt="Corporate marketing materials"
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                 data-alt="Elegant corporate brochure and marketing collateral spread on a wooden desk with professional high-end finish."
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuBiOOHevKAM50GzsiSnTWo7RHUxO24k891TB5speRNx2Simv5KNunH038iMUBBepOV_SvN6bPWQYYe93H8K2CRpbdPn5zwxMUcfg-c2fZ82Qro_TFu7IiVl6BgORv0sqRrOZcByrbqr9tajwkEBriUIjUs75mKpH8TiwJW4ntvXbrJT8ff4qJgpTelyRyDSbgWyGfRZoMmdWTMHoCbRdX7UPaRxwmBTVegAtHjv79q9G9XvfRsToTiINZRcquSAiyGaaGXJyUOt8gAh"
+                src="/image/1.jpeg
+                "
               />
               <div className="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500 backdrop-blur-sm flex items-center justify-center">
                 <span className="bg-primary text-on-primary p-4 rounded-full font-bold">

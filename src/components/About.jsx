@@ -5,21 +5,20 @@ export default function About() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-24">
           <div>
             <h2 className="font-headline text-4xl md:text-5xl font-extrabold mb-12 tracking-tight">
-              Crafting Identity <br />
-              Through Design
+              About Me
             </h2>
             <div className="space-y-6 text-on-surface-variant text-lg leading-relaxed">
               <p>
-                With over 8 years of dedicated experience in the design
-                industry, I specialize in transforming complex ideas into
-                visually compelling narratives. My journey has taken me from
-                traditional print workshops to leading brand communication
-                strategies in the healthcare sector.
+               I am a Professional Graphic Designer with over 8+ years of experience in print and digital design. I specialize in creating clear, impactful visual communication for hospitals, clinics, educational institutions, and corporate brands. My strength lies in combining creativity with strong production knowledge to deliver designs that are not only visually appealing but also technically perfect for final output.
               </p>
               <p>
-                I thrive at the intersection of branding, print production, and
-                digital marketing, ensuring every pixel and every ink drop
-                serves a strategic purpose.
+               I have extensive experience working on branding, marketing collaterals, medical communication materials, social media creatives, and large-format print designs. My understanding of prepress, color accuracy, layout systems, and finishing techniques allows me to execute print projects with precision and confidence.
+              </p>
+              <p>
+              Along with print expertise, I actively work on digital design including social media campaigns, UI layouts, brand guidelines, and video graphics. I use modern tools like Figma and Adobe Premiere Pro to create engaging digital content and motion visuals for promotions and awareness campaigns.
+              </p>
+              <p>
+              I believe good design is not only about looks, but about clarity, usability, and purpose. My goal is always to create designs that communicate effectively and strengthen brand identity across all platforms.
               </p>
             </div>
           </div>

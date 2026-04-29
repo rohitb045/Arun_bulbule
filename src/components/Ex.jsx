@@ -8,7 +8,8 @@ export default function Experience() {
               The Journey
             </span>
             <h2 className="font-headline text-5xl md:text-6xl font-black tracking-tighter mb-8">
-              Professional Timeline
+           Experience Timeline
+
             </h2>
             <p className="text-on-surface-variant text-lg">
               A decade of evolution from hands-on print technician to senior

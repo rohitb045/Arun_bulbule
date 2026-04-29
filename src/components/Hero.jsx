@@ -4,7 +4,7 @@ export default function Hero() {
       <div className="max-w-[1400px] mx-auto w-full grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
         <div className="lg:col-span-8 z-10">
           <span className="inline-block text-primary font-manrope text-xs tracking-[0.3em] uppercase mb-6">
-            Senior Graphic Designer • 8+ Years Experience
+            Creative Designer & Video Editor | Healthcare Specialist 
           </span>
           <h1 className="font-headline text-6xl md:text-8xl lg:text-9xl font-black text-on-background leading-[0.9] mb-8 tracking-tighter">
             Arun <br /> Bulbule

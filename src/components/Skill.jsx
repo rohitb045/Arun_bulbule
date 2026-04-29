@@ -7,7 +7,8 @@ export default function Skill() {
             Specializations
           </span>
           <h2 className="font-headline text-5xl md:text-6xl font-black tracking-tighter">
-            Professional Toolkit
+           Skills & Technologies 
+
           </h2>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
@@ -29,6 +30,14 @@ export default function Skill() {
                 <span className="text-on-surface">CorelDRAW</span>
                 <span className="text-primary text-xs font-bold">Expert</span>
               </div>
+              <div className="flex justify-between items-center bg-surface-container-low p-4 rounded hover:bg-surface-container-high transition-colors">
+                <span className="text-on-surface">Adobe Premiere Pro</span>
+                <span className="text-primary text-xs font-bold">Advanced</span>
+              </div>
+              <div className="flex justify-between items-center bg-surface-container-low p-4 rounded hover:bg-surface-container-high transition-colors">
+                <span className="text-on-surface">Figma</span>
+                <span className="text-primary text-xs font-bold">Advanced </span>
+              </div>
             </div>
           </div>
           {/* <!-- Print Expertise --> */}
@@ -49,6 +58,14 @@ export default function Skill() {
                 <span className="text-on-surface">Color Separation</span>
                 <span className="text-primary text-xs font-bold">Precision</span>
               </div>
+              <div className="flex justify-between items-center bg-surface-container-low p-4 rounded hover:bg-surface-container-high transition-colors">
+                <span className="text-on-surface">Prepress & Print Production </span>
+                <span className="text-primary text-xs font-bold"> Expert</span>
+              </div>
+              <div className="flex justify-between items-center bg-surface-container-low p-4 rounded hover:bg-surface-container-high transition-colors">
+                <span className="text-on-surface">Paper, GSM & Finish Knowledge </span>
+                <span className="text-primary text-xs font-bold"> Practical</span>
+              </div>
             </div>
           </div>
           {/* <!-- Digital Design --> */}
@@ -68,6 +85,14 @@ export default function Skill() {
               <div className="flex justify-between items-center bg-surface-container-low p-4 rounded hover:bg-surface-container-high transition-colors">
                 <span className="text-on-surface">Brand Guidelines</span>
                 <span className="text-primary text-xs font-bold">Unified</span>
+              </div>
+              <div className="flex justify-between items-center bg-surface-container-low p-4 rounded hover:bg-surface-container-high transition-colors">
+                <span className="text-on-surface">UI Layouts & Wireframes </span>
+                <span className="text-primary text-xs font-bold">Structured</span>
+              </div>
+              <div className="flex justify-between items-center bg-surface-container-low p-4 rounded hover:bg-surface-container-high transition-colors">
+                <span className="text-on-surface">Video Graphics & Reels </span>
+                <span className="text-primary text-xs font-bold"> Engaging</span>
               </div>
             </div>
           </div>

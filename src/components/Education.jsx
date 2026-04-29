@@ -3,7 +3,7 @@ export default function Education() {
     <section className="py-32 px-8 md:px-20 bg-surface-container-low">
       <div className="max-w-[1400px] mx-auto">
         <h2 className="font-headline text-5xl md:text-6xl font-black tracking-tighter mb-20 text-center">
-          Academic Roots
+          Education
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="md:col-span-2 bg-surface p-12 rounded-xl flex flex-col justify-between group hover:bg-surface-bright transition-colors">
